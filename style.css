@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    display: flex;
+
+    margin: 20px 30px 20px 20px;
+    justify-content: center;
+}
+
+.container1 .box1,
+.container1 .box3 {
+    margin: 10px 30px 10px 20px;
+    padding: 10px;
+   text-align: center;
+    background-color: aliceblue;
+    height: 550px;
+    background-color: aliceblue;
+    border: 1px solid lightgrey;
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+.container1 .box2 {
+    margin: -2px 30px 10px 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    align-items: stretch;
+    top: 5px;
+    height: 580px;
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+.container1 .box1 img,
+.container1 .box2 img,
+.container1 .box3 img {
+    padding: 10px;
+    width: 275px;
+    border: 1px solid lightgrey;
+}
+.container1 .box1 .btn1,
+.container1 .box2 .btn1,
+.container1 .box3 .btn1{
+    width: 200px;
+    height: 50px;
+margin-top: 30px;
+} 
